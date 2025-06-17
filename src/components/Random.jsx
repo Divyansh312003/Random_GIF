@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Spinner } from "./Spinner";
-const API_KEY='tXUdh1Grj3CGbsTH7lCMJ8B3b0AdLKfP';
 export default function Random() {
   
   const [gif,setGif] = useState('');
